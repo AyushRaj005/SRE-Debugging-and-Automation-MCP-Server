@@ -1,1 +1,1 @@
-# Face_Recognition_app
+# SRE-Debugging-and-Automation-MCP-Server
