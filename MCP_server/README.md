@@ -1,23 +1,23 @@
-# 🧩 Pokemon MCP Server Demo
+# Pokemon MCP Server Demo
 
 This is a simple MCP (Model Context Protocol) server that connects to the [PokéAPI](https://pokeapi.co/) and exposes tools that an LLM can use to fetch Pokémon data, list popular Pokémon, and build a tournament squad.
 
 It uses the [FastMCP](https://github.com/chain-ml/model-context-protocol) library and `httpx` to fetch live Pokémon info via a standardized protocol that works seamlessly with LLMs and AI agents.
 
-## 🚀 Features
+## Features
 
 - Get detailed info about any Pokémon
 - Create a powerful tournament squad
 - List popular Pokémon picks
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.8+
 - Node.js (for some LLM hosts that require it)
 - `httpx`
 - `mcp` (Model Context Protocol library)
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 # Clone the repo
@@ -32,7 +32,7 @@ python -m venv venv
 # Install dependencies
 pip install httpx "mcp[cli]"
 ```
-## ⚙️ Quick Start Using `uv`
+## Quick Start Using `uv`
 
 If you prefer using `uv`, follow these steps:
 
@@ -52,3 +52,4 @@ uv add mcp[cli] httpx
 # Create our server file
 new-item pokemon.py  # On PowerShell
 ```
+
